@@ -25,10 +25,16 @@ The project is organized into three distinct modules, each contained in its own 
 │   ├── mm1_plots.py               # Comparison plotting tools
 │   └── main.py                    # Main execution script (Iterates rho 0.05-0.95)
 │
+├── 04_Regression_Analysis/        # Module 4: Curve Fitting & Max Queue Analysis
+│   ├── mm1_stats.py               # Statistical estimation over multiple runs
+│   ├── mm1_models.py              # Regression models (Linear, Power-law, Nonlinear)
+│   ├── mm1_simulation.py          # Single-run simulation logic
+│   ├── mm1_plots.py               # Advanced regression visualization
+│   └── main.py                    # Main analysis script
+│
 ├── README.md                      # Project Documentation
 └── requirements.txt               # Dependencies
 ```
-
 ## 🛠️ Installation & Requirements
 
 To run the code across all modules, you need Python installed along with the following libraries:
@@ -115,6 +121,23 @@ Summary Results Table:
 0  0.05  1.05321   1.05263   0.05266   0.05263  ...
 1  0.10  1.11245   1.11111   0.11125   0.11111  ...
 ...
+```
+
+## 📗 Module 4: Regression Analysis & Queue Limits
+Folder: 04_Regression_Analysis/
+This module explores the relationship between Traffic Intensity ($\rho$) and the Maximum Queue Length ($N_q^{max}$). It uses Machine Learning techniques to fit models to empirical data.
+Features
+* Statistical Robustness: Runs multiple independent replications ($R$ runs) for each $\rho$ to calculate mean and standard deviation.
+* Model Fitting:
+   * Linear Regression: Tests linear scaling assumptions.
+   * Power-Law (Log-Linear): Fits $N_q^{max} \approx A / (1-\rho)^B$ by transforming to log-space.
+   * Non-Linear Weighted: Uses scipy.optimize.curve_fit to find the exact parameters with weighted least squares.
+* Advanced Visualization: Plots residuals to analyze model errors.
+Usage
+Navigate to the folder and run the analysis:
+```
+cd 04_Regression_Analysis
+python main.py
 ```
 🧠 Theoretical Background
 
