@@ -125,7 +125,10 @@ Summary Results Table:
 
 ## 📗 Module 4: Regression Analysis & Queue Limits
 Folder: 04_Regression_Analysis/
-This module explores the relationship between Traffic Intensity ($\rho$) and the Maximum Queue Length ($N_q^{max}$). It uses Machine Learning techniques to fit models to empirical data.
+
+This module explores the relationship between Traffic Intensity ($\rho$) and the Maximum Queue Length ($N_q^{max}$). 
+It uses Machine Learning techniques to fit models to empirical data.
+
 Features
 * Statistical Robustness: Runs multiple independent replications ($R$ runs) for each $\rho$ to calculate mean and standard deviation.
 * Model Fitting:
