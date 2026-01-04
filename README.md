@@ -4,7 +4,7 @@ This repository serves as a comprehensive toolkit for analyzing Stochastic Model
 
 The project is designed to understand how random variables behave and how queueing systems (specifically **M/M/1**) perform under various loads.
 
-## 📂 Repository Structure
+## Repository Structure
 
 The project is organized into three distinct modules, each contained in its own directory:
 
@@ -35,7 +35,7 @@ The project is organized into three distinct modules, each contained in its own 
 ├── README.md                      # Project Documentation
 └── requirements.txt               # Dependencies
 ```
-## 🛠️ Installation & Requirements
+## Installation & Requirements
 
 To run the code across all modules, you need Python installed along with the following libraries:
 
