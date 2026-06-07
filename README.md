@@ -1,4 +1,11 @@
+<div align="center">
+<img width="674" height="337" alt="EWZjZ1jUYAAjpem" src="https://github.com/user-attachments/assets/8823f958-a2f3-4e93-bc21-63df54e9ca30" />
+
 #  Queueing Theory with Python
+  
+</div>
+
+
 
 This repository serves as a comprehensive toolkit for analyzing Stochastic Models and Queueing Systems. It bridges the gap between theoretical mathematical formulas and empirical validation through Python simulations.
 
