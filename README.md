@@ -56,7 +56,7 @@ Install dependencies via pip:
 pip install numpy matplotlib pandas
 ```
 
-## 📘 Module 1: Exponential Distribution Analysis
+## Module 1: Exponential Distribution Analysis
 Folder: 01_Exponential_Distribution/
 
 This module focuses on the Exponential Distribution, the fundamental building block of queueing theory used to model inter-arrival and service times.
@@ -76,7 +76,7 @@ cd 01_Exponential_Distribution
 python main.py
 ```
 
-## 📙 Module 2: Basic M/M/1 Metrics
+## Module 2: Basic M/M/1 Metrics
 
 Folder: 02_MM1_Basics/
 
@@ -99,7 +99,7 @@ from mm1_lib import calculate_metrics
 metrics = calculate_metrics(lmbda=4, mu=6)
 print(f"Average Wait Time: {metrics['W']} hours")
 ```
-## 📕 Module 3: M/M/1 Simulation & Validation
+## Module 3: M/M/1 Simulation & Validation
 
 Folder: 03_MM1_Simulation/
 
@@ -130,7 +130,7 @@ Summary Results Table:
 ...
 ```
 
-## 📗 Module 4: Regression Analysis & Queue Limits
+## Module 4: Regression Analysis & Queue Limits
 Folder: 04_Regression_Analysis/
 
 This module explores the relationship between Traffic Intensity ($\rho$) and the Maximum Queue Length ($N_q^{max}$). 
