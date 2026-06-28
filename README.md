@@ -149,7 +149,7 @@ Navigate to the folder and run the analysis:
 cd 04_Regression_Analysis
 python main.py
 ```
-🧠 Theoretical Background
+## Theoretical Background
 
 Kendall's Notation
 
